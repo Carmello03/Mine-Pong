@@ -1,0 +1,178 @@
+/* Main container styling */
+.root {
+    -fx-font-family: 'Minecraftia', sans-serif; /* Use a Minecraft-like font */
+    -fx-background-image: url('MainMENU2.png'); /* A background image resembling Minecraft terrain */
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+/* Styling for the title */
+.title-label {
+    -fx-background-image: url('MINE-PONG.png'); /* A background image resembling Minecraft terrain */
+    -fx-background-size: contain;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-min-height: 110px; /* Adjust the height */
+    -fx-min-width: 550px; /* Adjust the width */
+    -fx-padding: 75px; /* Adjust top and bottom padding as necessary */
+    -fx-background-color: transparent;
+}
+
+/* Form container adjustments */
+.form-container {
+}
+
+/* Form container adjustments */
+.form-container-load {
+}
+
+/* Text field adjustments */
+.text-field {
+    -fx-pref-width: 200px; /* Increase width to match Minecraft style */
+    -fx-pref-height: 18px; /* Adjust height if necessary */
+    -fx-background-color: rgba(139, 139, 139, 0.8); /* Semi-transparent gray background */
+    -fx-text-fill: #FFF; /* White text */
+    -fx-font-size: 16px; /* Match Minecraft's font size */
+    -fx-font-family: 'Minecraftia', sans-serif; /* Use a Minecraft-like font */
+}
+
+.text-field:hover {
+    -fx-background-image: url('btn2.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+/* Text field adjustments */
+.player-label {
+    -fx-text-fill: white; /* Set text color to white */
+    -fx-font-size: 12px; /* Match Minecraft's font size */
+    -fx-font-weight: bold; /* Make the text bold */
+    -fx-font-family: 'Minecraftia', sans-serif; /* Use a Minecraft-like font */
+}
+
+.setting-label {
+    -fx-text-fill: white; /* Set text color to white */
+    -fx-font-size: 14px; /* Match Minecraft's font size */
+    -fx-font-weight: bold; /* Make the text bold */
+    -fx-font-family: 'Minecraftia', sans-serif; /* Use a Minecraft-like font */
+}
+
+/* Slider adjustments */
+.slider {
+    -fx-pref-width: 300px; /* Increase width to match Minecraft style */
+    -fx-pref-height: 20px; /* Adjust height if necessary */
+    /* Additional styling for the thumb and track below */
+}
+
+/* Thumb and track adjustments */
+.slider .thumb {
+    -fx-size: 15px; /* Adjust thumb size */
+    -fx-background-color: #FFF; /* White thumb color */
+}
+
+.slider .track {
+    -fx-background-color: #8B8B8B; /* Gray track color */
+}
+
+.menu-button{
+    -fx-pref-height: 40px;
+    -fx-pref-width: 405px;
+    -fx-alignment: center; /* Align text to center */
+    -fx-text-fill: white; /* Set text color to white */
+    -fx-cursor: hand; /* Change cursor to hand when hovered */
+    -fx-background-image: url('btn1.png'); /* Set background image */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: 405px 40px; /* Size of the background image */
+    -fx-font-family: 'Minecraftia', sans-serif; /* Use a Minecraft-like font */
+    -fx-padding: 0px 0 0 0; /* Padding to align text inside the button */
+    -fx-font-size: 15px;
+}
+
+.menu-button:hover{
+    -fx-background-image: url('btn2.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: 405px 40px; /* Size of the background image */
+}
+
+.load-menu-button{
+    -fx-pref-height: 40px;
+    -fx-pref-width: 370px;
+    -fx-alignment: center; /* Align text to center */
+    -fx-text-fill: white; /* Set text color to white */
+    -fx-cursor: hand; /* Change cursor to hand when hovered */
+    -fx-background-image: url('btn1.png'); /* Set background image */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: 370px 40px; /* Size of the background image */
+    -fx-font-family: 'Minecraftia', sans-serif; /* Use a Minecraft-like font */
+    -fx-font-size: 15px;
+    -fx-margin-right: 50px;
+}
+
+.load-menu-button:hover{
+    -fx-background-image: url('btn2.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: 370px 40px; /* Size of the background image */
+}
+
+.load-button{
+    -fx-pref-height: 40px;
+    -fx-pref-width: 340px;
+    -fx-alignment: center; /* Align text to center */
+    -fx-text-fill: white; /* Set text color to white */
+    -fx-cursor: hand; /* Change cursor to hand when hovered */
+    -fx-background-image: url('btn1.png'); /* Set background image */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: 340px 40px; /* Size of the background image */
+    -fx-font-family: 'Minecraftia', sans-serif; /* Use a Minecraft-like font */
+    -fx-font-size: 15px;
+}
+
+.load-button:focused{
+    -fx-background-image: url('btn2.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: 340px 40px; /* Size of the background image */
+}
+
+.game-button {
+    -fx-pref-height: 40px;
+    -fx-pref-width: 40px;
+    -fx-background-color: #b7b7b7;
+    -fx-border-color: #4b4c4d;
+    -fx-background-image: url('btn1.png'); /* Set background image */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+    -fx-margin-right: 100px;
+}
+
+.game-button:hover {
+    -fx-background-color: #7f8ab4;
+    -fx-background-image: url('btn2.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+
+.game-button:pressed {
+    -fx-background-color: #638ccb;
+}
+
+.player1-container,
+.player2-container {
+    -fx-pref-height: 40px;
+    -fx-pref-width: 305px;
+    -fx-alignment: center; /* Align text to center */
+    -fx-text-fill: white; /* Set text color to white */
+    -fx-cursor: hand; /* Change cursor to hand when hovered */
+    -fx-background-image: url('btn1.png'); /* Set background image */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-padding: 10px 10px 10px 10px; /* Padding to align text inside the button */
+}

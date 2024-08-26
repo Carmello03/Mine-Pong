@@ -1,0 +1,5 @@
+module:com.example.pingpong
+com.example.pingpong
+com.example.pingpong.Controller
+com.example.pingpong.Model
+com.example.pingpong.View

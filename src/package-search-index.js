@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"com.example.pingpong","l":"com.example.pingpong"},{"m":"com.example.pingpong","l":"com.example.pingpong.Controller"},{"m":"com.example.pingpong","l":"com.example.pingpong.Model"},{"m":"com.example.pingpong","l":"com.example.pingpong.View"}];updateSearchResults();
